@@ -1,0 +1,50 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- ENVIRONMENTS ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# --- DATA / LOGS ---
+data/
+*.csv
+*.log
+
+# --- OS / MISC ---
+.DS_Store
+Thumbs.db
+
+# --- JUPYTER / COLAB ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# --- IDE FILES ---
+.vscode/
+.idea/
+
+# --- BUILD ---
+build/
+dist/
+*.egg-info/
+
+# --- TESTS / TEMP ---
+*.tmp
+*.bak
+*.swp
+
+# --- LARGE FILES ---
+*.mp4
+*.mov
+*.avi
+*.gif
+
+# --- BACKUPS ---
+*.zip
+*.tar
+*.gz
