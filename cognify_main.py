@@ -77,7 +77,6 @@ if __name__ == "__main__":
 
     print(f"\n🧠 Digital Brain says: after '{current_action}', you're most likely to '{predicted_action}' next.")
 
-    # --- Visualize the brain’s learned transition matrix ---
     from cognify_dashboard import plot_transition_matrix
 
     matrix = brain.visualize_matrix()
