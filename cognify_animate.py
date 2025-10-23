@@ -1,4 +1,3 @@
-# cognify_animate.py
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -10,10 +9,10 @@ from cognify_main import ACTIONS, generate_behavior_sequence
 ASSETS = Path("assets")
 ASSETS.mkdir(exist_ok=True)
 
-# Generate a sequence
+# sequence generate karna hai
 sequence = generate_behavior_sequence(n_steps=100)
 
-# Initialize brain
+# brain Initialize
 brain = DigitalBrain(ACTIONS)
 
 # Prepare figure
