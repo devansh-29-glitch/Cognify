@@ -1,4 +1,4 @@
-# cognify_brain.py
+# cognify_brain.py wala code
 import numpy as np
 import random
 from collections import defaultdict
@@ -19,7 +19,7 @@ class DigitalBrain:
             curr, nxt = sequence[i], sequence[i + 1]
             self.transition_matrix[curr][nxt] += 1
 
-        # Normalize to probabilities
+        # Normalize to probabilities (last mein)
         for curr in self.transition_matrix:
             total = sum(self.transition_matrix[curr].values())
             for nxt in self.transition_matrix[curr]:
