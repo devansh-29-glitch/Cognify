@@ -1,4 +1,4 @@
-# cognify_main.py
+# cognify_main.py wala code
 import os
 import random
 import numpy as np
@@ -7,7 +7,7 @@ import seaborn as sns
 from pathlib import Path
 from tqdm import tqdm
 
-# Create data folder if missing
+# Create data folder if missing nahi to theek hai
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     plot_action_distribution(sequence, plot_path)
     print(f"📊 Saved visualization to: {plot_path}")
 
-    # --- Test the Digital Brain ---
+    # digital brain ka test
     from cognify_brain import DigitalBrain
 
     brain = DigitalBrain(ACTIONS)
