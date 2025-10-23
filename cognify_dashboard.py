@@ -1,4 +1,4 @@
-# cognify_dashboard.py
+# cognify_dashboard.py wala code
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
