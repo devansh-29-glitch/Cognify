@@ -47,5 +47,3 @@ Cognify isn’t just a model - it’s a metaphor.
 It mirrors how neurons reduce uncertainty by predicting outcomes, a key principle in **modern neuroscience and AI alignment research.**
 
 This is how machines begin to “expect” - just like the human brain.
-
-
